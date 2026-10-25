@@ -1,0 +1,16 @@
+{
+  "author": "HologramAgent",
+  "auto_start": false,
+  "description": "主管式多仓库开发流水线：登记项目、开工程对话、为每条线拉起内置 pi 并注册一对通道，投递任务给 pi 并在同一会话内续投。",
+  "entry": "plugin.bin",
+  "name": "commondev",
+  "name_en": "CommonDev",
+  "name_zh": "多仓库开发主管",
+  "tags": [
+    "commondev",
+    "git",
+    "agent",
+    "develop"
+  ],
+  "version": "0.1.0"
+}
