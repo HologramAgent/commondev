@@ -31,6 +31,15 @@
       "arch": "amd64",
       "format": "tar.gz",
       "strip_prefix": "pi/"
+    },
+    {
+      "name": "runtime",
+      "url": "https://github.com/HologramAgent/commondev/releases/download/rawfile-0.1.2/runtime-0.1.2.tar.gz",
+      "sha256": "efb67ebd2d398d4276ad17cef3d5816c6f49f20c5ae5192f847e8fd3c235aed9",
+      "os": "linux",
+      "arch": "amd64",
+      "format": "tar.gz",
+      "strip_prefix": "runtime/"
     }
   ],
   "auto_start": false,
