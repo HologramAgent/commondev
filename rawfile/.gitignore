@@ -1,0 +1,14 @@
+# rawfile/ 里的资源分两类，规矩不同：
+#
+#   · 大二进制（node / pi）不进版本库 —— 由 plg.json 的 rawfiles url 在
+#     构建期现场下载（sha256 强校验，缓存见 ~/.homeagent/hmapdev/cache/rawfiles/）。
+#     好处：克隆快、升级不产生巨型 diff、干净克隆也能打出可用包。
+#
+#   · 我们自己的 sidecar（runtime/ 下的 .mjs 与 driver.json）是**源码**，
+#     几十 KB，必须进版本库 —— 否则干净克隆打出的包缺 sidecar，
+#     插件装上去跑不起来（见 rawfile_presence_test.go）。
+*
+!.gitignore
+!.gitkeep
+!runtime
+!runtime/**

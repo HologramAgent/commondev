@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "config": {
+    "providerConfigRules": {
+      "providerRules": [
+        {
+          "providerId": "llmsproxy",
+          "providerName": "llmsproxy",
+          "enabled": true,
+          "config": {
+            "group": "standard-personal",
+            "personalModelIds": [
+              "AUTO"
+            ],
+            "modelOrder": [
+              "AUTO"
+            ],
+            "access": {
+              "type": "api-key",
+              "apiKey": "<把 key 填这里，或删掉本文件自己配>"
+            },
+            "api": {
+              "type": "openai-chat-completions",
+              "baseUrl": "http://127.0.0.1:8081/v1"
+            }
+          }
+        }
+      ]
+    },
+    "modelConfigRules": {
+      "providerModelRules": [],
+      "manualProviderModelRules": []
+    },
+    "defaultModelSelection": {
+      "providerId": "llmsproxy",
+      "modelId": "AUTO"
+    }
+  }
+}

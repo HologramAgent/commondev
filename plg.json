@@ -13,7 +13,26 @@
     "develop"
   ],
   "targets": "linux/amd64",
-  "rawfiles": [],
+  "rawfiles": [
+    {
+      "name": "node",
+      "url": "https://github.com/HologramAgent/commondev/releases/download/rawfile-0.1.2/node-v24.14.1-linux-x64.tar.gz",
+      "sha256": "f7e54a488913a6ef10c3c5da4e195f02ae9a070062c8252c08c052421b67b445",
+      "os": "linux",
+      "arch": "amd64",
+      "format": "tar.gz",
+      "strip_prefix": "node/"
+    },
+    {
+      "name": "pi",
+      "url": "https://github.com/HologramAgent/commondev/releases/download/rawfile-0.1.2/pi-0.99.2.tar.gz",
+      "sha256": "4b1bfcbd8c3ae13045cc22aeefe8da1320b3ef7fef2efba4648d0297347613e0",
+      "os": "linux",
+      "arch": "amd64",
+      "format": "tar.gz",
+      "strip_prefix": "pi/"
+    }
+  ],
   "auto_start": false,
   "repo": "https://github.com/HologramAgent/commondev"
 }
