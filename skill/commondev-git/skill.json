@@ -1,0 +1,6 @@
+{
+  "name": "commondev-git",
+  "description": "git 托管平台（Gitea/GitHub/GitLab 等）的操作权威：认证头与 API 前缀的四种形状、保存并复用凭据、开/查/合 PR、分支保护的机制化设置、审批的三个实测 API 坑。**插件里没有平台逻辑**——一律用 enc_shell + @{凭据名} 调 curl/gh/tea。接到 commondev 主管流程时先读 commondev-discipline。",
+  "version": "3.0.0",
+  "author": "HomeAgent"
+}

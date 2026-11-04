@@ -1,0 +1,6 @@
+{
+  "name": "commondev-hmap",
+  "description": "hmap 插件的开发与部署纪律：开工前要搞清的三件事、五个必踩的坑、注册工具的正确形状、外部插件的能力边界、安装与验证、\"装了却不生效\"的排查、安全纪律、孤儿清理。写插件或排查插件问题时读本文；开工程/派活见 commondev-discipline。",
+  "version": "3.0.0",
+  "author": "HomeAgent"
+}
